@@ -58,7 +58,7 @@ for (var i = 0; i < boroughsAvailable.length; i++) {
 
 
 .` + (boroughClass.className) + ` {
-  content: url(images/` + (boroughsAvailable[i].id.substring(7)) +`.svg);
+  content: url(live-dev/images/` + (boroughsAvailable[i].id.substring(7)) +`.svg);
   transform: scale(2);
  position: absolute;
  pointer-events:none;
